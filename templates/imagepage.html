@@ -1,0 +1,29 @@
+{% extends 'Index.html' %}
+{% load static %}
+{% block title %} My image page {% endblock %}
+{% block content %}
+<h1>List of image:</h1><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <img src= "{% static 'c.jpg' %}" class="img-fluid" alt="Image of django">
+            </div>
+        </div>
+    </div>
+ {% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

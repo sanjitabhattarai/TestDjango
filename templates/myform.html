@@ -1,0 +1,34 @@
+{% extends 'index.html' %}
+{% block title %}My form page {% endblock %}
+{% block content %}
+<h1>Form</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6" style=" margin: 0 auto;">
+            <form>
+                <div>
+                    <label>Username</label>
+                    <input type="text" name="name" class="form-control"
+                </div>
+
+
+                
+                <div>
+                    <label>address</label>
+                    <input type="text" name="add" class="form-control"
+                </div>  
+                
+                <div>
+                    <label>password</label>
+                    <input type="password" name="pass" class="form-control"
+                </div> 
+                
+                <center> <button type="submit" class="btn btn-primary">Submit</button></center>
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}
